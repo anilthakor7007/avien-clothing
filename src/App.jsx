@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 import DownloadApp from './pages/DownloadApp';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Wishlist from './pages/Wishlist.jsx';
+// import Wishlist from './pages/Wishlist.jsx';
 import Cart from './pages/Cart';
 import ProductList from './pages/ProductList';
 import Footer from './components/Footer';
@@ -32,7 +32,7 @@ function App() {
               <Route path="/download-app" element={<DownloadApp />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
-              <Route path="/wishlist" element={<Wishlist />} />
+              {/* <Route path="/wishlist" element={<Wishlist />} /> */}
               <Route path="/cart" element={<Cart />} />
               <Route path="/productList" element={<ProductList />} />
               <Route path="/" element={<Women />} />
