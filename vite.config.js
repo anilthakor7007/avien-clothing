@@ -9,8 +9,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['@remix-run/router'],
-      // Limit parallel file operations to reduce EMFILE errors
+      // Removed 'external' for @remix-run/router to fix browser import error
       maxParallelFileOps: 10
     }
   }
